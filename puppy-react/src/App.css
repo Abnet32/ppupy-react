@@ -22,3 +22,121 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* header part styling */
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
+.header-nav-container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 15px 0 20px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  height: 12px;
+  opacity: 0.8;
+}
+nav ul li:hover {
+  opacity: 1;
+}
+nav ul li a img {
+  width: 18px;
+}
+nav ul li a {
+  color: #fff;
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+/* section one style */
+
+.main-text{
+  font-size: 25px;
+  margin: 5px 0;
+}
+.section-one {
+  height: 580px;
+  background-image: url(../image/section\ one.PNG);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  background-color: #000;
+  padding: 15px 0;
+}
+
+/* section two style */
+
+.section-two {
+  background-image: url(../image/seciton\ two.png);
+  background-color: #f5f5f7;
+  color: #000;
+  margin: 20px 0;
+}
+.watch::after {
+  font-family: "FontAwesome";
+  font-weight: 400;
+  content: "\f144";
+  padding-left: 10px;
+  color:	#0040ff;
+}
+.learn-container {
+  display: flex;
+  justify-content: center;
+}
+.learn-container a {
+  color:	#0040ff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.learn-container a:hover {
+  color: #000;
+}
+.learn::after {
+  font-family: "FontAwesome";
+  font-weight: 400;
+  content: "\f105";
+  padding-left: 10px;
+  color: 	#0040ff;
+}
+button {
+  width: 70px;
+  height: 30px;
+  background-color:	#0040ff;
+  color: #fff;
+  border-radius: 20px;
+  border-style: none;
+  margin:10px 10px 0;
+  font-size: 23px;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* section three style */
+
+.sec-3 {
+  background-color: #f5f5f7;
+}
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin: 0 auto;
+}
+.left-side {
+  margin: 180px 0 200px 200px;
+}
+button + div {
+  margin-top: 15px;
+}
